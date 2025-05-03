@@ -63,3 +63,10 @@
     font-family: 'Philosopher';
     width: 250px;
   }
+
+  .bg-image-pink{
+    background-image: url('../../assets/icons/bg-pink.svg');
+    background-size: cover;
+    background-position: center;
+    height: 320px; /* or whatever height you need */
+  }
