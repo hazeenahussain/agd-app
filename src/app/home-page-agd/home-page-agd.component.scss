@@ -56,7 +56,7 @@
     text-decoration: underline;
   }
   
-  .viewAll{
+  .viewAllBtn{
     background-color: #411F47;
     color: white;
     font-size: 14px;
@@ -69,4 +69,14 @@
     background-size: cover;
     background-position: center;
     height: 320px; /* or whatever height you need */
+  }
+
+  .shopNowBtn{
+    background-color: #411F47;
+    color: white;
+    font-size: 14px;
+    font-family: 'Philosopher';
+    width: 250px;
+    height:30px;
+    margin-top: -30px;
   }
