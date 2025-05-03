@@ -5,6 +5,7 @@
 .navbarStyle2{
     background-color: #FFFFFF;
     height: 40px;
+    // margin-top: 10px;
 }
 
 .example-spacer {
@@ -22,4 +23,31 @@
   .headerspace span:first-child {
     margin-left: 30px;
   }
-  
+  .scanStyle{
+    
+  }
+  body{
+    padding: 50px;
+  }
+  h1{
+    margin-bottom: 10px;
+  }
+  .icon-input {
+      margin-bottom: 10px;
+      position: relative;
+      max-width: 300px;
+      &__text-field{
+        width: 100%;
+        padding: 5px 30px 5px 5px;
+      }
+      &__icon{
+          color: rgba(0,0,0,1);
+          position: absolute;
+          top: 50%;
+          right: -2rem;
+          transform: translateY(-50%);
+      }
+      &__text-field:focus + &__icon{
+        color: #FF8400;
+      }
+  }
