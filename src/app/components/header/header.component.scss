@@ -1,0 +1,25 @@
+.navbarStyle1{
+    background-color: #1D1236;
+    height: 25px;
+}
+.navbarStyle2{
+    background-color: #FFFFFF;
+    height: 40px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .headerspace{
+    display: flex;
+    justify-content: space-between;
+    gap: 130px; /* Adjust the spacing as needed */
+    font-size: 14px;
+    color: #F7C2C3;
+    font-family: 'Philosopher';
+  }
+  .headerspace span:first-child {
+    margin-left: 30px;
+  }
+  
