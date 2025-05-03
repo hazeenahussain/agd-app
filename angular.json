@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "agd-app"
+    }
+  },
+  "defaultProject": "agd-app",
+  "cli": {
+    "analytics": false
+  }
 }
