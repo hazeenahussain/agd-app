@@ -31,3 +31,28 @@
     font-family: 'Philosopher';
     width: 150px;
   }
+
+  .navbarStyle3{
+    background-color: #FFFFFF;
+    height: 25px;
+  }
+
+  .headerspace1{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px; /* Adjust the spacing as needed */
+    font-size: 14px;
+    color: #411F47;
+    font-family: 'Philosopher';
+  }
+
+  .headerspace1 span {
+    cursor: pointer; /* Optional: shows a pointer cursor */
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .headerspace1 span:hover {
+    text-decoration: underline;
+  }
+  
