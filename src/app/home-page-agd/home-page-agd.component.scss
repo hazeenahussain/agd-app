@@ -1,0 +1,33 @@
+.bg-image-section {
+    background-image: url('../../assets/icons/bg.svg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* or whatever height you need */
+  }
+
+  .bg-image-pic{
+    background-image: url('../../assets/icons/bg-pic.svg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* or whatever height you need */
+  }
+
+  .fontStyle{    
+    font-size: 14px;
+    color: #411F47;
+    font-family: 'Philosopher';
+  }
+
+  .fontStyle1{    
+    font-size: 24px;
+    color: #411F47;
+    font-family: 'Philosopher';
+  }
+
+  .bgColor{
+    background-color: #411F47;
+    color: white;
+    font-size: 14px;
+    font-family: 'Philosopher';
+    width: 150px;
+  }

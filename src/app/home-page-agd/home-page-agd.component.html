@@ -1,3 +1,26 @@
 <app-header></app-header>
-<p>home-page-agd works!</p>
+<div class="bg-image-pic">
+
+</div>
+<div class="bg-image-section">
+<div class="d-flex flex-column align-items-center mt-3 ">
+    <div class="fontStyle ">Best Collection</div>
+    <div class="fontStyle1"> Shop by Category</div>
+</div>
+<!-- 2 -->
+
+
+<div class="d-flex justify-content-center gap-4 flex-wrap mt-4">
+    <div class="text-center" style="width: 180px;" *ngFor="let i of itemList">
+      <img [src]="i.img"  height="150px" width="150px" />
+      <div class="fontStyle mt-2">{{i.name}}</div>
+      <div class="fontStyle">{{i.qty}} Products</div>
+      <a href="#" class="btn bgColor mt-2">Shop Now</a>
+    </div>
+  </div>
+  <!-- 3 -->
+  
+<!--  -->
+
+</div>
 <app-footer></app-footer>

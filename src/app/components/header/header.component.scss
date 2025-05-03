@@ -7,10 +7,13 @@
     height: 40px;
     // margin-top: 10px;
 }
-
-.example-spacer {
-    flex: 1 1 auto;
-  }
+.navbarStyle3{
+  background-color: #FFFFFF;
+  height: 25px;
+}
+// .example-spacer {
+//     flex: 1 1 auto;
+//   }
 
   .headerspace{
     display: flex;
@@ -23,31 +26,70 @@
   .headerspace span:first-child {
     margin-left: 30px;
   }
+
+  .headerspace1{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px; /* Adjust the spacing as needed */
+    font-size: 14px;
+    color: #411F47;
+    font-family: 'Philosopher';
+  }
+
+  .headerspace1 span {
+    cursor: pointer; /* Optional: shows a pointer cursor */
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .headerspace1 span:hover {
+    text-decoration: underline;
+  }
+  
   .scanStyle{
-    
+     font-size: 14px;
+    color: #000;
+    font-family: 'Philosopher';
   }
-  body{
-    padding: 50px;
+ 
+ 
+  .search-container {
+    position: relative;
+    width: 250px;
   }
-  h1{
-    margin-bottom: 10px;
+  
+  .font-icon {
+    position: absolute;  
+    transform: translateY(-50%);
+    color: #000;
+    pointer-events: none; /* So it doesn't block typing */
   }
-  .icon-input {
-      margin-bottom: 10px;
-      position: relative;
-      max-width: 300px;
-      &__text-field{
-        width: 100%;
-        padding: 5px 30px 5px 5px;
-      }
-      &__icon{
-          color: rgba(0,0,0,1);
-          position: absolute;
-          top: 50%;
-          right: -2rem;
-          transform: translateY(-50%);
-      }
-      &__text-field:focus + &__icon{
-        color: #FF8400;
-      }
+  .search-icon {   
+    top: 40%;
+    left: 12px;     
   }
+  
+  .close-icon{
+    position: absolute;
+    top: 40%;
+    left: 220px;
+    transform: translateY(-50%);
+    color: #000;
+    pointer-events: none; /* So it doesn't block typing */
+  }
+  .search-input {
+    width: 100%;
+    padding: 0px 16px 0px 36px; /* Left padding makes room for icon */
+    border-radius: 999px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+  }
+  .gap-3 {
+    gap: 1rem;
+  }
+  
+  .gap-4 {
+    gap: 1.5rem;
+  }
+  
