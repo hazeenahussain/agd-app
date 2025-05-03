@@ -5,8 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home-page-agd.component.html',
   styleUrls: ['./home-page-agd.component.scss']
 })
+
 export class HomePageAgdComponent implements OnInit {
   itemList:any[]=[];
+  neckItemList: any[]=[];
 
   constructor() { }
 
@@ -18,7 +20,13 @@ export class HomePageAgdComponent implements OnInit {
       {id:'4',name:'Rings',qty:'40', img: '../../assets/icons/ring1.svg'},
       {id:'5',name:'Pendants',qty:'40', img: '../../assets/icons/ring2.svg'},
       {id:'6',name:'Nose Pins',qty:'45', img: '../../assets/icons/ring3.svg'}
-    ]
+    ];
+    this.neckItemList=[
+      {id:'1',name:'X Hop Earrings',amt:'$25.00 USD', mrp:'$15.00 USD',img: '../../assets/icons/neck3.svg'},
+      {id:'2',name:'B Hop Necklace',amt:'$25.00 USD', mrp:'$30.00 USD',img: '../../assets/icons/neck1.svg'},
+      {id:'3',name:'VW Hop Necklace',amt:'$25.00 USD',mrp:'$15.00 USD',img: '../../assets/icons/neck5.svg'},
+      {id:'4',name:'Bangles Top rated',amt:'$25.00 USD',mrp:'$15.00 USD', img: '../../assets/icons/neck4.svg'}     
+    ];
   }
 
 }

@@ -61,7 +61,7 @@
     <img src="../../assets/icons/white-saree.svg"  height="320px" width="320px"/>
     </div>
     <div class="mt-3 bg-image-pink">
-        <img src="../../assets/icons/neck2.svg"  height="320px" width="320px"/>
+        <img src="../../assets/icons/neck2.svg"  height="320px" width="380px"/>
         <div class=" d-flex justify-content-center">
             <button class="shopNowBtn">Shop Now</button>
           </div>
@@ -71,6 +71,24 @@
             </div>
    </div>
       <!-- 7 -->
+      <div class="d-flex flex-column align-items-center mt-3 ">
+        <div class="fontStyle ">Collection 28</div>
+        <div class="fontStyle1">Top Selling Designs</div>
+    </div>
+    <!-- 8 -->
+    <div class="d-flex justify-content-center gap-4 flex-wrap mt-4">
+        <div class="text-center" style="width: 180px;" *ngFor="let i of neckItemList">
+          <img [src]="i.img"  height="170px" width="170px" />
+          <div class="fontStyle mt-2">{{i.name}}</div>
+          <div class="fontStyle">{{i.amt}} <span class="ml-2"><strong>{{i.mrp}}</strong></span></div>
+          <a href="#" class="btn bgColor mt-2">Shop Now</a>
+        </div>
+      </div>
+      <!-- 9 -->
+       <!--5  -->
+  <div class=" d-flex justify-content-center mt-3">
+    <button class="btn viewAllBtn1">View All</button>
+  </div>
        <!-- ends -->
 </div>
 <!-- <app-footer></app-footer> -->

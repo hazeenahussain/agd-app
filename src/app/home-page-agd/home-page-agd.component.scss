@@ -2,14 +2,14 @@
     background-image: url('../../assets/icons/bg.svg');
     background-size: cover;
     background-position: center;
-    height: 400px; /* or whatever height you need */
+    height: 400px;
   }
 
   .bg-image-pic{
     background-image: url('../../assets/icons/bg-pic.svg');
     background-size: cover;
     background-position: center;
-    height: 400px; /* or whatever height you need */
+    height: 400px;
   }
 
   .fontStyle{    
@@ -40,14 +40,14 @@
   .headerspace1{
     display: flex;
     justify-content: space-between;
-    gap: 50px; /* Adjust the spacing as needed */
+    gap: 50px; 
     font-size: 14px;
     color: #411F47;
     font-family: 'Philosopher';
   }
 
   .headerspace1 span {
-    cursor: pointer; /* Optional: shows a pointer cursor */
+    cursor: pointer; 
     position: relative;
     transition: all 0.3s ease;
   }
@@ -63,12 +63,20 @@
     font-family: 'Philosopher';
     width: 250px;
   }
+    
+  .viewAllBtn1{
+    background-color: #411F47;
+    color: white;
+    font-size: 14px;
+    font-family: 'Philosopher';
+    width: 250px;
+  }
 
   .bg-image-pink{
     background-image: url('../../assets/icons/bg-pink.svg');
     background-size: cover;
     background-position: center;
-    height: 320px; /* or whatever height you need */
+    height: 320px;
   }
 
   .shopNowBtn{
