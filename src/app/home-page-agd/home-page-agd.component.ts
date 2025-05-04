@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomePageAgdComponent implements OnInit {
   itemList:any[]=[];
   neckItemList: any[]=[];
+  imageList: any[]=[];
 
   constructor() { }
 
@@ -26,6 +27,14 @@ export class HomePageAgdComponent implements OnInit {
       {id:'2',name:'B Hop Necklace',amt:'$25.00 USD', mrp:'$30.00 USD',img: '../../assets/icons/neck1.svg'},
       {id:'3',name:'VW Hop Necklace',amt:'$25.00 USD',mrp:'$15.00 USD',img: '../../assets/icons/neck5.svg'},
       {id:'4',name:'Bangles Top rated',amt:'$25.00 USD',mrp:'$15.00 USD', img: '../../assets/icons/neck4.svg'}     
+    ];
+    this.imageList=[
+      {id:'1',img: '../../assets/icons/image 3.svg'},
+      {id:'2',img: '../../assets/icons/image 4.svg'},
+      {id:'3',img: '../../assets/icons/image 5.svg'},
+      {id:'4',img: '../../assets/icons/image 6.svg'}, 
+      {id:'4',img: '../../assets/icons/image7.svg'}, 
+      {id:'4',img: '../../assets/icons/image 7.svg'}, 
     ];
   }
 

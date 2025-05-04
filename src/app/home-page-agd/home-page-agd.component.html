@@ -153,7 +153,16 @@
     </div>
   </div>
   
+  <!--  -->
   
+<div class="d-flex justify-content-center gap-4 flex-wrap mt-4">
+    <div class="text-center" style="width: 180px;" *ngFor="let i of imageList">
+      <img [src]="i.img"  height="70px" width="70px" />
+      <!-- <div class="fontStyle mt-2">{{i.name}}</div>
+      <div class="fontStyle">{{i.qty}} Products</div>
+      <a href="#" class="btn bgColor mt-2">Shop Now</a> -->
+    </div>
+  </div>
        <!-- ends -->
 </div>
 <!-- <app-footer></app-footer> -->
