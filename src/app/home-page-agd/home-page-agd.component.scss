@@ -102,3 +102,74 @@
     cursor: pointer;
     transition: all 0.3s ease;
   }
+
+  .top-left-img {
+    top: 0;
+    left: 0;
+  }
+  
+  .bottom-right-img {
+    bottom: 0;
+    right: 0;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  .custom-card {
+    // position: absolute;
+    // top: 800px;
+    // left: 50%;
+    transform: translate(-50%, -50%); /* Center the card */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    min-width: 200px;
+    text-align: center;
+  }  
+
+
+  .discount-wrapper {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+  }
+  
+  .discount-label {
+    color: #FBD4D4;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.2;
+    background: transparent;
+  }
+  
+  .vertical-line {
+    width: 2px;
+    height: 40px;
+    background-color: #FBD4D4;
+    margin-left: 10px;
+  }
+
+  .orderNowBtn{
+    background-color: #FBD4D4;
+    color: #61191D;
+    font-size: 14px;
+    font-family: 'Philosopher';
+    width: 150px;
+    height: 30px;
+    border-radius: 0%;
+  }
+
+  .red-box {
+    width: 700px;
+    height: 150px;
+    background-color: #7A110B; /* red rectangle */
+    border-radius: 0px;
+  }
+  
