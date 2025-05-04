@@ -33,16 +33,24 @@
     color: #411F47;
     font-family: 'Philosopher';
   }
+
   .fontStyle2{    
     font-size: 14px;
     color: #FBD4D4;
     font-family: 'Philosopher';
   }
+
   .fontStyle3{    
     font-size: 24px;
     color: #FBD4D4;
     font-family: 'Philosopher';
     font-weight: 700;
+  }
+
+  .fontStyle4{    
+    font-size: 14px;
+    color: white;
+    font-family: 'Philosopher';
   }
 
   .bgColor{
@@ -191,3 +199,12 @@
     background-color: #1D1236; 
     border-radius: 0px;
   }  
+.fontIcon{
+    font-size: 16px;
+    color: #FFFFFF;
+   
+}
+
+.fontIconStyle{  
+    margin-left: 20px;
+}

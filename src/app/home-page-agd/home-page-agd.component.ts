@@ -34,7 +34,9 @@ export class HomePageAgdComponent implements OnInit {
       {id:'3',img: '../../assets/icons/image 5.svg'},
       {id:'4',img: '../../assets/icons/image 6.svg'}, 
       {id:'4',img: '../../assets/icons/image7.svg'}, 
-      {id:'4',img: '../../assets/icons/image 7.svg'}, 
+      {id:'4',img: '../../assets/icons/image 8.svg'}, 
+      {id:'4',img: '../../assets/icons/image 9.svg'}, 
+      {id:'4',img: '../../assets/icons/image 10.svg'}, 
     ];
   }
 
