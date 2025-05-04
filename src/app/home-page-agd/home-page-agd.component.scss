@@ -1,7 +1,7 @@
 .page-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Full viewport height */
+    min-height: 100vh; 
   }
 
   .flex-grow-1 {
@@ -121,8 +121,7 @@
   }
 
   .shopNowBtn{
-    background-color: #411F47;
-    // border: 1px solid #411F47;
+    background-color: #411F47;  
     color: white;
     font-size: 14px;
     font-family: 'Philosopher';
@@ -149,8 +148,9 @@
   .position-relative {
     position: relative;
   }
+  
   .custom-card {  
-    transform: translate(-50%, -50%); /* Center the card */
+    transform: translate(-50%, -50%); 
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
