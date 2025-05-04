@@ -23,6 +23,17 @@
     color: #411F47;
     font-family: 'Philosopher';
   }
+  .fontStyle2{    
+    font-size: 14px;
+    color: #FBD4D4;
+    font-family: 'Philosopher';
+  }
+  .fontStyle3{    
+    font-size: 24px;
+    color: #FBD4D4;
+    font-family: 'Philosopher';
+    font-weight: 700;
+  }
 
   .bgColor{
     background-color: #411F47;
@@ -135,7 +146,7 @@
 
   .discount-wrapper {
     position: absolute;
-    top: 160px;
+    top: 20px;
     left: 10px;
   }
   
@@ -144,7 +155,8 @@
     padding: 4px 10px;
     font-weight: bold;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 24px;
+    font-family: 'Philosopher';
     line-height: 1.2;
     background: transparent;
   }
